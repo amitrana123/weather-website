@@ -11,7 +11,6 @@ const publicDirectoryPath = path.join(__dirname, '../public');
 const viewPath = path.join(__dirname, '../templates/views' );
 const partialsPath = path.join(__dirname, '../templates/partials');
 
-
 //Setup handlebar engine and view location
 app.set('view engine', 'hbs');
 app.set('views', viewPath);
